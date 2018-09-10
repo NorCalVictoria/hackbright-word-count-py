@@ -14,7 +14,7 @@ def word_counter(tst):
 
     
     for word in word_dict.items():
-        lst = (f'{word[0]} : {word[1]}')
+        lst = (f'{word[0]} {word[1]}')
         print(lst)
     
     return word_dict        
